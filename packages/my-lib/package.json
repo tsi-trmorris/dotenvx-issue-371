@@ -1,0 +1,13 @@
+{
+  "name": "@issue-371/lib",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/index.js"
+  },
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/node": "^22.5.3",
+    "@dotenvx/dotenvx": "latest",
+    "esbuild": "^0.23.1"
+  }
+}

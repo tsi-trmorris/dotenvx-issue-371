@@ -1,0 +1,11 @@
+{
+  "name": "@issue-371/monorepo",
+  "devDependencies": {
+    "nx": "15.4.2"
+  },
+  "packageManager": "pnpm@9.9.0",
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "packages"
+  }
+}

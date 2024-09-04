@@ -1,0 +1,14 @@
+{
+  "name": "@issue-371/app",
+  "type": "module",
+  "scripts": {
+    "start": "dotenvx run -f .env.local -f .env -- node src/index.js",
+    "start:alt": "pnpx @dotenvx/dotenvx run -f .env.local -f .env -- node src/index.js"
+  },
+  "dependencies": {
+    "@issue-371/lib": "workspace:*"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "latest"
+  }
+}
